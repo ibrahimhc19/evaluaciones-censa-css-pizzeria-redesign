@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap');
+// Variables, Mixins, and Base Styles
+@use 'variables';
+@use 'mixins';
+@use 'base';
+
+// Layout
+@use 'layout/header';
+@use 'layout/navbar';
+@use 'layout/footer';
+
+// Components
+@use 'components/buttons';
+@use 'components/cards';
+@use 'components/form';
+@use 'components/animations';
+
+// Pages
+@use 'pages/home';

@@ -5,10 +5,3 @@
 @use 'layout';
 @use 'components';
 @use 'pages';
-
-
-body {
-  background-color: color(bg);
-  color: color(text);
-  font-family: 'Poppins', sans-serif;
-}
